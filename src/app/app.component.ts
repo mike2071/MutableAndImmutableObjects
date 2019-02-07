@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MutableAndImmutableObjects';
+
+  constructor(){
+    let myString = "Some text"
+    myString.slice(1, 3)
+    console.log(myString)
+
+    // var myString = ['One', 'Two', 'Three']
+    // myString.push('Four')
+    // console.log(myString)
+  }
 }
